@@ -1,0 +1,21 @@
+.Banner1{
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: fit-content;
+}
+.feature{
+  width: 100%;
+  margin-bottom: 5px;
+  object-fit: contain;
+}
+.heading{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-align: center;
+}
+.bg-black-400 {
+  background-color: #8b8787d3;
+}
+.footer-boldText{
+  font-weight: 400;
+}
