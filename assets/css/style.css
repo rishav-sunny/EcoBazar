@@ -1,0 +1,62 @@
+.Banner1{
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: fit-content;
+}
+.feature{
+  width: 100%;
+  margin-bottom: 5px;
+  object-fit: contain;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.heading span {
+  white-space: nowrap;
+}
+
+.bg-black-400 {
+  background-color: #8b8787d3;
+}
+.footer-boldText{
+  font-weight: 400;
+}
+
+.card .border-end {
+  border-right: 1px solid #dee2e6 !important;
+}
+.card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.card span {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+.card-body {
+  padding: 0.5rem;
+}
+.bg-overlay {
+  position: relative;
+}
+
+.bg-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent overlay */
+  z-index: 1;
+}
+
+.bg-overlay .container {
+  position: relative;
+  z-index: 2;
+}
